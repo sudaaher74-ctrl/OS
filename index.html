@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS Interiors  | Premium Interior Design - Navi Mumbai & Mumbai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo"> Nexus Interiors</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>  
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transforming Spaces, Creating Experiences</h1>
+                <p>OS Interiors delivers premium interior design solutions for residential and commercial spaces across Navi Mumbai & Mumbai. With over 10 years of excellence, we bring your vision to life.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn">Get Free Consultation</a>
+                    <a href="#projects" class="btn btn-outline">View Our Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive interior design solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Residential Interiors</h3>
+                    <p>Complete home interior design including living rooms, bedrooms, kitchens, and bathrooms with premium materials and craftsmanship.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Commercial Interiors</h3>
+                    <p>Office spaces, retail stores, restaurants, and hospitality venues designed for functionality, brand identity, and customer experience.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Turnkey Projects</h3>
+                    <p>End-to-end interior solutions from concept to completion with single-point responsibility and timely delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Projects</h2>
+                <p>Showcasing our premium interior design work across categories</p>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="turnkey">Turnkey</button>
+                <button class="filter-btn" data-filter="ongoing">Ongoing</button>
+            </div>
+            
+            <!-- Projects Grid - Add your projects here -->
+            <div class="projects-grid" id="projectsContainer">
+                
+                <!-- Project 1: Luxury Apartment in Seawoods -->
+                <div class="project-card" data-category="residential">
+                    <div class="project-data" style="display: none;">
+                        <div class="project-title">Luxury Apartment in Seawoods</div>
+                        <div class="project-location">Seawoods, Navi Mumbai</div>
+                        <div class="project-scope">Complete 3BHK Interior</div>
+                        <div class="project-duration">45 Days</div>
+                        <div class="project-area">1250 sq.ft.</div>
+                        <div class="project-description">Modern luxury interior with custom furniture and premium finishes. This project involved complete transformation of a 3BHK apartment with high-end materials, custom cabinetry, and smart home automation. The living room features a custom-designed entertainment unit and Italian marble flooring, while the bedrooms have built-in wardrobes and ambient lighting systems. The kitchen boasts German modular units with quartz countertops.</div>
+                        <div class="project-images">
+                            <!-- Add your photo URLs here -->
+                            <img src="images/armchair-green-living-room-with-copy-space.jpg" alt="Living Room">
+                            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bedroom">
+                            <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Kitchen">
+                            <img src="https://images.unsplash.com/photo-1558036117-15e82a2c9a9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bathroom">
+                            <!-- Add video (optional) -->
+                            <!-- <video src="your-video.mp4" poster="video-thumbnail.jpg"></video> -->
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <!-- Main thumbnail image -->
+                        <img src="https://images.unsplash.com/photo-1615529182904-14819c35db37?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Apartment in Seawoods">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Residential</span>
+                        <h3>Luxury Apartment in Seawoods</h3>
+                        <p>Modern luxury interior with custom furniture and premium finishes. This project involved complete transformation of a 3BHK apartment...</p>
+                        <div class="project-details">
+                            <p><strong>Location:</strong> Seawoods, Navi Mumbai</p>
+                            <p><strong>Scope:</strong> Complete 3BHK Interior</p>
+                        </div>
+                        <button class="btn view-project-btn" style="margin-top: 15px;">View Project</button>
+                    </div>
+                </div>
+
+                <!-- Project 2: Corporate Office in Bandra -->
+                <div class="project-card" data-category="commercial">
+                    <div class="project-data" style="display: none;">
+                        <div class="project-title">Corporate Office in Bandra</div>
+                        <div class="project-location">Bandra West, Mumbai</div>
+                        <div class="project-scope">Office Interior Design</div>
+                        <div class="project-duration">60 Days</div>
+                        <div class="project-area">3000 sq.ft.</div>
+                        <div class="project-description">Contemporary workspace with ergonomic furniture and collaborative zones. This corporate office design incorporates an open-plan layout with private cabins, conference rooms, and breakout areas.</div>
+                        <div class="project-images">
+                            <!-- Add your photo URLs here -->
+                            <img src="images/armchair-green-living-room-with-copy-space.jpg" alt="Office Reception">
+                            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Work Area">
+                            <!-- Add more images as needed -->
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Corporate Office in Bandra">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Commercial</span>
+                        <h3>Corporate Office in Bandra</h3>
+                        <p>Contemporary workspace with ergonomic furniture and collaborative zones. This corporate office design incorporates an open-plan layout...</p>
+                        <div class="project-details">
+                            <p><strong>Location:</strong> Bandra West, Mumbai</p>
+                            <p><strong>Scope:</strong> Office Interior Design</p>
+                        </div>
+                        <button class="btn view-project-btn" style="margin-top: 15px;">View Project</button>
+                    </div>
+                </div>
+
+                <!-- Project 3: Villa Turnkey Project -->
+                <div class="project-card" data-category="turnkey">
+                    <div class="project-data" style="display: none;">
+                        <div class="project-title">Villa Turnkey Project</div>
+                        <div class="project-location">Kharghar, Navi Mumbai</div>
+                        <div class="project-scope">Complete Villa Interior</div>
+                        <div class="project-duration">90 Days</div>
+                        <div class="project-area">3500 sq.ft.</div>
+                        <div class="project-description">End-to-end luxury villa interior with landscaping. This turnkey project included architectural modifications, interior design, furniture selection, and exterior landscaping.</div>
+                        <div class="project-images">
+                            <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Villa Living Room">
+                            <img src="https://images.unsplash.com/photo-1615874694520-474822394e73?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Villa Garden">
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Villa Turnkey Project">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Turnkey</span>
+                        <h3>Villa Turnkey Project</h3>
+                        <p>End-to-end luxury villa interior with landscaping. This turnkey project included architectural modifications, interior design, furniture selection...</p>
+                        <div class="project-details">
+                            <p><strong>Location:</strong> Kharghar, Navi Mumbai</p>
+                            <p><strong>Scope:</strong> Complete Villa Interior</p>
+                        </div>
+                        <button class="btn view-project-btn" style="margin-top: 15px;">View Project</button>
+                    </div>
+                </div>
+
+                
+                <!-- Copy the project-card structure above and replace with your own content -->
+                
+                <!-- Example: How to add your own photos -->
+                <!-- 
+                <div class="project-card" data-category="residential">
+                    <div class="project-data" style="display: none;">
+                        <div class="project-title">Your Project Title</div>
+                        <div class="project-location">Your Location</div>
+                        <div class="project-scope">Project Scope</div>
+                        <div class="project-duration">Duration</div>
+                        <div class="project-area">Area</div>
+                        <div class="project-description">Detailed description here...</div>
+                        <div class="project-images">
+                            <!-- Replace these with your own photo URLs -->
+                            <!-- <img src="YOUR_PHOTO_URL_1.jpg" alt="Room 1">
+                            <img src="YOUR_PHOTO_URL_2.jpg" alt="Room 2">
+                            <img src="YOUR_PHOTO_URL_3.jpg" alt="Room 3"> -->
+                            <!-- Add video if you have -->
+                            <!-- <video src="YOUR_VIDEO_URL.mp4" poster="video-thumbnail.jpg"></video> -->
+                        <!-- </div>
+                    </div>
+                    <div class="project-image">
+                        <!-- Main thumbnail image -->
+                        <!-- <img src="YOUR_MAIN_PHOTO.jpg" alt="Your Project Title"> -->
+                    <!-- </div>
+                    <div class="project-info">
+                        <span class="project-category">Category</span>
+                        <h3>Your Project Title</h3>
+                        <p>Short description...</p>
+                        <div class="project-details">
+                            <p><strong>Location:</strong> Your Location</p>
+                            <p><strong>Scope:</strong> Project Scope</p>
+                        </div>
+                        <button class="btn view-project-btn" style="margin-top: 15px;">View Project</button>
+                    </div>
+                </div>
+                -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-gallery">
+                <img id="modalMainImage" src="" alt="" class="modal-main-image">
+                <div class="gallery-nav prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="gallery-nav next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="gallery-thumbnails" id="thumbnailsContainer">
+                <!-- Thumbnails will be loaded here by JavaScript -->
+            </div>
+            <div class="modal-body">
+                <h2 id="modalProjectTitle"></h2>
+                <div id="modalProjectCategory" class="project-category"></div>
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <h4>Location</h4>
+                        <p id="modalProjectLocation"></p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Scope</h4>
+                        <p id="modalProjectScope"></p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Duration</h4>
+                        <p id="modalProjectDuration"></p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Area</h4>
+                        <p id="modalProjectArea"></p>
+                    </div>
+                </div>
+                <div class="project-description" id="modalProjectDescription"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="OS Interiors Team">
+                </div>
+                <div class="about-text">
+                    <h2>About OS Interiors</h2>
+                    <p>Founded in 2012, OS Interiors has established itself as a premier interior design firm serving Navi Mumbai, Mumbai, and surrounding regions. Our commitment to quality, attention to detail, and client-centric approach sets us apart.</p>
+                    <p>We believe that interiors should reflect personality, enhance functionality, and inspire. Our team of experienced designers, architects, and craftsmen work collaboratively to deliver spaces that exceed expectations.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">250+</span>
+                            <span class="stat-text">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-text">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-text">Client Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about working with OS Interiors</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "OS Interiors transformed our 3BHK apartment in Seawoods into a luxury living space. Their attention to detail and project management was exceptional. Highly recommended!"
+                    </div>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client">
+                        </div>
+                        <div>
+                            <h4>Priya Sharma</h4>
+                            <p>Residential Client, Navi Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch for a personalized consultation</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Our Locations</h4>
+                            <p>Navi Mumbai Office: Sector 15, belapur lakhani centrium 402<br>
+                            Mumbai Office: Bandra West, Mumbai</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p><a href="tel:+918767067884">+91 8767067884</a><br>
+                            <a href="tel:+912225678901">+91 22 2567 8901</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p><a href="mailto:info@os-interiors.in">info@os-interiors.in</a><br>
+                            <a href="mailto:sales@os-interiors.in">sales@os-interiors.in</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="requirement">Project Requirement *</label>
+                            <select id="requirement" class="form-control" required>
+                                <option value="">Select a service</option>
+                                <option value="residential">Residential Interior</option>
+                                <option value="commercial">Commercial Interior</option>
+                                <option value="turnkey">Turnkey Project</option>
+                                <option value="consultation">Design Consultation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Details</label>
+                            <textarea id="message" class="form-control" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/8767067884?text=Hi%20OS%20Interiors,%20I%20would%20like%20to%20discuss%20a%20project" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>OS Interiors</h3>
+                    <p>Premium interior design services for residential and commercial spaces in Navi Mumbai & Mumbai. Transforming spaces with creativity and craftsmanship since 2012.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Residential Interiors</a></li>
+                        <li><a href="#">Commercial Interiors</a></li>
+                        <li><a href="#">Turnkey Projects</a></li>
+                        <li><a href="#">Modular Kitchen</a></li>
+                        <li><a href="#">False Ceiling</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Vashi, Navi Mumbai</li>
+                        <li><i class="fas fa-phone"></i> +91 8767067884</li>
+                        <li><i class="fas fa-envelope"></i> info@os-interiors.in</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 OS Interiors. All Rights Reserved. | Designed for Navi Mumbai & Mumbai</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
